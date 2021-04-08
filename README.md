@@ -31,10 +31,12 @@ The goal of the project would also be to uses NLP to do topic modeling, again wi
 
 I have a data set of 3 million Russian troll tweets from FiveThirtyEight (there are other sources a well including the [Internet Archive] which contains both Russian and Iranian Tweets). I also have a list of Tweet ids around the 2016 election gathered by George Washington University. These Tweets are general to the election and not from Russian/Iran. The entire data set includes 280 million ids, but given limits set by Twitter on downloads, I don't have time to get them all. The tweets are also broken down into subcategories. I would focus on the 'Candidates and key election hashtags' subcategory first. 
 
-The goal would be to identify the troll Russian tweets and separate them from the legitimate tweets. I would use NLP to cluster Tweets by similarity which would hopefully bring out meaningful groupings based on topic/content. I could then analyze the conetent of each group to learn about each of them. 
+The goal would be to identify the troll Russian tweets and separate them from the legitimate tweets. I would use NLP to cluster Tweets by similarity which would hopefully bring out meaningful groupings based on topic/content. I could then analyze the conetent of each group to learn about each of them. The main portion of this project is unsuperrvised, but I could also rate how well I did since I do have labels I could use to compare my results. 
 
+This's project's idea is to use NLP to create vectors from text that can be compared using something like cosine simularity. Documents could then be clustered based on that simularity and then analysis could be done on each cluster, including topic modeling, to identify the issues/concerns/ideas/etc associated with each cluster. 
 
 [Russian Trolls](https://github.com/fivethirtyeight/russian-troll-tweets/)
+
 [GWD 2016 Election Tweet IDs](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/PDI7IN)
 
 ---
