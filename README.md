@@ -29,9 +29,9 @@ The goal of the project would also be to uses NLP to do topic modeling, again wi
 
 ### 3. Twitter 2016
 
-I have a data set of 3 million Russian troll tweets from FiveThirtyEight (there are other sources a well including the [Internet Archive] which contains both Russian and Iranian Tweets). I also have a list of Tweet ids around the 2016 election gathered by George Washington University. These Tweets are general to the election and not from Russian/Iran. The entire data set includes 280 million ids, but given limits set by Twitter on downloads, I don't have time to get them all. The tweets are also broken down into subcatgories. I would focus on the 'Candidates and key election hashtags' subcategory first. 
+I have a data set of 3 million Russian troll tweets from FiveThirtyEight (there are other sources a well including the [Internet Archive] which contains both Russian and Iranian Tweets). I also have a list of Tweet ids around the 2016 election gathered by George Washington University. These Tweets are general to the election and not from Russian/Iran. The entire data set includes 280 million ids, but given limits set by Twitter on downloads, I don't have time to get them all. The tweets are also broken down into subcategories. I would focus on the 'Candidates and key election hashtags' subcategory first. 
 
-The goal would be to identiify the troll Russian tweets and separate them from the legitimate tweets. I would use NLP to cluster Tweets by similarity which would hopefully bring out meaningful groupings based on topic/content. 
+The goal would be to identify the troll Russian tweets and separate them from the legitimate tweets. I would use NLP to cluster Tweets by similarity which would hopefully bring out meaningful groupings based on topic/content. I could then analyze the conetent of each group to learn about each of them. 
 
 
 [Russian Trolls](https://github.com/fivethirtyeight/russian-troll-tweets/)
